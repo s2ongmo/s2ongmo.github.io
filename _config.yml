@@ -14,6 +14,8 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+
+
 title: chwrld # the main title
 
 tagline: Web & Forensic researcher # it will display as the subtitle
@@ -34,7 +36,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: \@chwrld24
+  name: @chwrld24
   email: leaveleave01@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -100,7 +102,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/gosegu.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
