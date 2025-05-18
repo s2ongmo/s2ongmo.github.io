@@ -14,7 +14,10 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-
+profile:
+  name: chwrld
+  avatar: /assets/img/gosegu.jpg
+  bio: 여기에 간단한 소개를 적으세요.
 
 title: chwrld # the main title
 
